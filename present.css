@@ -1,0 +1,277 @@
+sbody{
+    background-color: rgb(54, 192, 169);
+}
+
+#header{
+    border: 2px solid rgb(19, 19, 19);
+    height: 176px;
+    width: 100%;
+    margin: auto;
+    background-image: url();
+	position: fixed;
+	margin-left: -9px;
+}
+
+#MENU{
+    border: 4px solid rgb(24, 23, 23);
+	width: 100%;
+    height: 40px;
+	margin-top: -5px;
+}
+
+#corps{
+    border: 4px solid black;
+	width: 100%;
+    height: 1100px;
+	margin-top: 175px;
+	background-color: #252424;
+}
+
+#PIED{
+    border: 2px solid black;
+	width: 100%;
+    height: 200px;
+	background-color: #0e0e0f
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #ffffff;
+
+/* for pull-down menu to work in IE6*/
+behavior:url("csshover2.htc");
+
+}
+
+/* pull-down mainmenu css */
+.mainmenu{
+	float: left;
+	width: 100%;
+	padding: 0;
+}
+.mainmenu ul {
+	float: left;
+	width: 100%;
+	list-style: none;
+	line-height: 1;
+	color:#eaeff1;
+	background: #51367c;
+	padding: 0;
+	border: solid #A0A0A4;
+	border-width: 1px 0;
+	margin: 0 0 1em 0;
+}
+
+.mainmenu a, .mainmenu a:visited {
+	display: block;
+font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+	color: #f7f7f0;
+	text-decoration: none;
+	padding: 1em 1em;
+}
+.mainmenu ul ul a{
+	width:100%;
+	height:100%;
+}
+.mainmenu ul a{
+	width:1%;
+}
+
+
+.mainmenu li  {
+	float: left;
+	margin:0;
+	padding:0;
+}
+
+.mainmenu ul li {float:left; position:relative;  }
+.mainmenu ul li a {white-space:nowrap;}
+	
+.mainmenu li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width:15em;	
+	
+	background: #000080;
+	font-weight: normal;
+	border-width: 1px;
+	margin: 0;
+}
+
+.mainmenu li li {
+	width:15em ;
+}
+
+.mainmenu li li a{
+	width:13em ;
+}
+
+.mainmenu li ul  {
+	margin: 0;
+}
+.mainmenu li ul ul {
+	margin: -2.8em 0 0 13.5em;
+}
+.ul_ch, 
+.mainmenu li:hover ul ul,
+.mainmenu li li:hover ul ul,
+.mainmenu li li li:hover ul ul,
+.mainmenu li li li li:hover ul ul,
+.mainmenu li li li li li:hover ul ul
+{
+	left: -999em;
+}
+.mainmenu li:hover ul,
+.mainmenu li li:hover ul,
+.mainmenu li li li:hover ul,
+.mainmenu li li li li:hover ul,
+.mainmenu li li li li li:hover ul
+{
+	left: auto;
+}
+.mainmenu li:hover>ul.ul_ch   
+{
+	left: auto;
+}
+
+.mainmenu li:hover{
+	background: #FF0000;
+}
+
+.mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+	color:#b6c719;
+}
+.mainmenu li:hover li a, .mainmenu li li:hover li a, 
+.mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+.mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+.mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+{
+	color:#cbe00b;
+}
+.mainmenu li li:hover, .mainmenu li li li:hover, 
+.mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+{
+	background: #d5e40d;
+	z-index:9999;
+}
+.mainmenu li li:hover a,.mainmenu li li li:hover a, 
+.mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+{
+	color: #b8c922; 
+}
+
+.mainmenu ul ul a, .mainmenu ul ul a:visited,
+.mainmenu li li a, .mainmenu li li a:visited
+{
+	color: #b8b631;
+}
+.mainmenu ul ul a:hover,
+.mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+.mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+	color: #323bbb;
+}
+.mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+.mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+.mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+	color: #3e8ac9;
+
+}
+/* end of mainmenu css */
+
+.titre{
+    color: #eaeff1;
+	background-color: #d35e95;
+    text-align: center;
+    font-family:'courier new', courier,monospace;
+    font-size: 30px;
+	font-weight: bold;
+
+}
+.titre1{
+	text-align: center;
+	color:white;
+    background-color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight:5PX;
+	margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+	/*background-color: rgb(59, 59, 59);*/
+
+}
+
+
+.act1{
+	float: left;
+}
+.act2{
+	float: left;
+
+}
+	
+.pied{
+	color: white;
+	display: inline-block;
+	width: 383px;
+    height: 500px;
+	
+}
+
+.form{
+	text-align: center;
+	
+}
+.dan{
+    border: 2px solid rgb(8, 8, 8);
+    width: 800px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-image: url(biv.jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+#espy{
+    border: 2px solid rgb(102, 107, 102);
+    width: 600px;
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -500px;
+    color: white;
+    text-align: center;
+
+    
+}
+#black{
+    border: 2px solid rgb(8, 8, 8);
+    width: 800px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: url(ghj\ \(1\).jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+#itel{
+    border: 2px solid rgb(84, 87, 84);
+    width: 600px;
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -500px;
+    color: white;
+    text-align: center;
+    
+
+}
